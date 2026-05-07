@@ -6,14 +6,14 @@ const contactItems = [
     label: "Address",
     lines: [
       "Opp. CSI Church, Mangad,",
-      "Thirumala PO, Trivandrum – 695 006",
+      "Thirumala PO, Trivandrum - 695 006",
       "Kerala, India",
     ],
   },
   {
     icon: Phone,
     label: "Phone",
-    lines: ["+91 98951 08777", "+91 62351 69877", "0471 – 235 5877"],
+    lines: ["+91 98951 08777", "+91 62351 69877", "0471 - 235 5877"],
     isPhone: true,
   },
   {
@@ -25,7 +25,7 @@ const contactItems = [
   {
     icon: Clock,
     label: "School Hours",
-    lines: ["Mon – Sat: 8:30 AM – 3:30 PM", "Office: 8:00 AM – 4:00 PM"],
+    lines: ["Mon-Sat: 9.30 AM - 3.30 PM", "Office: 9 AM - 5 PM", "Caring available up to 6 PM"],
   },
 ];
 
@@ -50,9 +50,9 @@ export default function Contact() {
         <div className="bg-navy-gradient rounded-3xl p-7 md:p-10 mb-10 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="text-gold-300 font-display font-bold text-xl md:text-2xl mb-1">
-              Admissions Open 2026 – 2027
+              Admissions Open 2026-2027
             </p>
-            <p className="text-white/60 text-sm">Play School to Grade VIII · CBSE Syllabus</p>
+            <p className="text-white/60 text-sm">Play School to Grade X | CBSE Syllabus</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
             <a

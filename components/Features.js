@@ -34,7 +34,7 @@ const features = [
   {
     icon: Trophy,
     title: "Academics & Extra-Curricular",
-    desc: "Equal importance to academics and co-curricular activities including music, sports, arts, and cultural programs.",
+    desc: "Equal importance to academics and co-curricular activities including music, sports, arts, and cultural programmes.",
     color: "bg-yellow-50 text-yellow-600 border-yellow-100",
     accent: "text-yellow-600",
   },
@@ -82,7 +82,7 @@ export default function Features() {
           </h2>
           <div className="w-14 h-1 bg-gold-400 rounded-full mx-auto mt-4 mb-4" />
           <p className="text-navy-700/60 max-w-xl mx-auto text-sm md:text-base">
-            We offer everything a child needs to grow — academically, socially, and creatively.
+            We offer everything a child needs to grow academically, socially, and creatively.
           </p>
         </div>
 

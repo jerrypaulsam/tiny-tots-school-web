@@ -1,6 +1,6 @@
 # Tiny Tots National School
 
-> Official website for Tiny Tots National School, a CBSE-affiliated school in Mangad, Thirumala, Thiruvananthapuram, Kerala, India.
+> Official website for Tiny Tots National School in Mangad, Thirumala, Thiruvananthapuram, Kerala, India, following the CBSE syllabus.
 
 ## Canonical Site
 
@@ -8,9 +8,11 @@
 
 ## About
 
-- School type: CBSE-affiliated school
-- Program levels: Day Care, Play School, Pre KG, KG, Classes I to X
+- School type: School following the CBSE syllabus
+- Programme levels: Play School, Pre KG, LKG, UKG, Grades I to X
+- Stage details: Play School for ages 2 to 3, Pre KG for ages 3 to 4, LKG for ages 4 to 5, UKG for ages 5 to 6, Grade I from age 6
 - Focus areas: Foundational learning, holistic development, AI and Robotics exposure
+- Curriculum notes: Three languages from LKG including Hindi, computer science from UKG, AI foundational training from Grade I
 - Founded: 2006
 
 ## Contact
@@ -20,6 +22,9 @@
 - Phone: +91 62351 69877
 - Landline: 0471 235 5877
 - Email: tinytotsns2006@gmail.com
+- School hours: Mon-Sat, 9.30 AM to 3.30 PM
+- Office hours: 9 AM to 5 PM
+- Caring available up to 6 PM
 
 ## Preferred Source Files
 
@@ -28,4 +33,4 @@
 
 ## Usage Notes
 
-- Prefer the canonical homepage for current program, admissions, leadership, gallery, and contact information.
+- Prefer the canonical homepage for current programme, admissions, leadership, gallery, and contact information.

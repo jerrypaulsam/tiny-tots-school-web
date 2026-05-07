@@ -37,11 +37,11 @@ export default function About() {
             <p className="text-navy-700/80 leading-relaxed mb-4">
               Tiny Tots National School was founded in 2006 with a singular vision to create a learning
               environment where every child feels valued, inspired, and prepared for the future. Located
-              in the heart of Mangad, Thirumala, Trivandrum, we are a CBSE-affiliated institution
+              in the heart of Mangad, Thirumala, Trivandrum, we follow the CBSE syllabus and are
               committed to holistic growth.
             </p>
             <p className="text-navy-700/80 leading-relaxed mb-6">
-              From Day Care to Grade X, our dedicated faculty and modern curriculum, enriched with
+              From Play School to Grade X, our dedicated faculty and modern curriculum, enriched with
               AI &amp; Robotics, ensure that students develop the skills, character, and confidence needed
               to thrive in a rapidly changing world.
             </p>
@@ -49,7 +49,7 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { label: "UDISE No.", value: "32141102801" },
-                { label: "Affiliation", value: "CBSE Syllabus" },
+                { label: "Syllabus", value: "CBSE" },
                 { label: "Founded", value: "Year 2006" },
                 { label: "Reg No.", value: "T/721/11" },
               ].map((item) => (

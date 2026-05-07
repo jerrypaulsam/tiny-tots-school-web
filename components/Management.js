@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const team = [
   {
-    name: "Sheeja Vinayan",
+    name: "Sheeja Albert",
     role: "Principal",
     img: "/sheeja.jpg",
     message:

@@ -10,7 +10,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-navy-900/90 via-navy-900/75 to-navy-800/60" />
 
       {/* Decorative gold arc */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 md:h-32"
+      <div
+        className="absolute bottom-0 left-0 right-0 h-24 md:h-32"
         style={{
           background: "linear-gradient(to top, rgba(10,31,68,0.15), transparent)",
         }}
@@ -21,7 +22,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-gold-400/20 border border-gold-400/40 text-gold-300 text-xs font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full mb-6 animate-fade-up">
           <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-          Admissions Open 2026 – 2027
+          Admissions Open 2026-2027
         </div>
 
         {/* School Name */}
@@ -30,7 +31,8 @@ export default function Hero() {
           style={{ animationDelay: "0.1s" }}
         >
           TINY TOTS
-          <span className="block text-transparent bg-clip-text"
+          <span
+            className="block text-transparent bg-clip-text"
             style={{ backgroundImage: "linear-gradient(90deg, #e8b84b, #c8992a, #e8b84b)", WebkitBackgroundClip: "text" }}
           >
             National School
@@ -52,8 +54,8 @@ export default function Hero() {
         >
           {[
             { val: "Since 2006", label: "Established" },
-            { val: "CBSE", label: "Affiliated" },
-            { val: "Play – X", label: "Classes" },
+            { val: "CBSE", label: "Syllabus" },
+            { val: "Play School - Grade X", label: "Classes" },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <p className="font-display font-bold text-gold-300 text-xl md:text-2xl">{s.val}</p>

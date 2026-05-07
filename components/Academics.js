@@ -1,10 +1,11 @@
-const programs = [
-  { level: "Day Care", age: "1–2 yrs", desc: "Safe and nurturing care in a home-like environment.", color: "from-pink-50 to-pink-100 border-pink-200" },
-  { level: "Play School", age: "2–3 yrs", desc: "Foundational play-based learning to spark curiosity.", color: "from-yellow-50 to-yellow-100 border-yellow-200" },
-  { level: "Pre KG & KG", age: "3–5 yrs", desc: "Early literacy, numeracy, and social skills development.", color: "from-green-50 to-green-100 border-green-200" },
-  { level: "Grade I – V", age: "6–10 yrs", desc: "Strong academic foundation with CBSE curriculum.", color: "from-blue-50 to-blue-100 border-blue-200" },
-  { level: "Grade VI – VIII", age: "11–13 yrs", desc: "Deep subject knowledge with AI & Robotics exposure.", color: "from-purple-50 to-purple-100 border-purple-200" },
-  { level: "Grade IX – X", age: "14–15 yrs", desc: "Board exam preparation with expert faculty guidance.", color: "from-orange-50 to-orange-100 border-orange-200" },
+const programmes = [
+  { level: "Play School", age: "2-3 years", desc: "Foundational play-based learning to spark curiosity.", color: "from-pink-50 to-pink-100 border-pink-200" },
+  { level: "Pre KG", age: "3-4 years", desc: "A gentle transition into structured early learning and social development.", color: "from-yellow-50 to-yellow-100 border-yellow-200" },
+  { level: "LKG", age: "4-5 years", desc: "Early literacy, numeracy, and confidence-building with three languages, including Hindi.", color: "from-green-50 to-green-100 border-green-200" },
+  { level: "UKG", age: "5-6 years", desc: "Strong kindergarten preparation with computer science introduced from UKG itself.", color: "from-blue-50 to-blue-100 border-blue-200" },
+  { level: "Grade I-V", age: "6-10 years", desc: "Strong academic foundation with the CBSE syllabus and AI foundational training from Grade I.", color: "from-purple-50 to-purple-100 border-purple-200" },
+  { level: "Grade VI-VIII", age: "11-13 years", desc: "Deep subject knowledge with AI & Robotics exposure.", color: "from-orange-50 to-orange-100 border-orange-200" },
+  { level: "Grade IX-X", age: "14-15 years", desc: "Focused secondary learning with expert faculty guidance.", color: "from-rose-50 to-rose-100 border-rose-200" },
 ];
 
 export default function Academics() {
@@ -25,19 +26,19 @@ export default function Academics() {
           <div className="w-14 h-1 bg-gold-400 rounded-full mx-auto mt-4 mb-4" />
           <p className="text-white/60 max-w-xl mx-auto text-sm md:text-base">
             A structured learning journey from early childhood through secondary education,
-            under the Central Board of Secondary Education (CBSE).
+            following the CBSE syllabus.
           </p>
         </div>
 
-        {/* CBSE Banner */}
+        {/* Curriculum Banner */}
         <div className="bg-gold-gradient rounded-2xl p-5 md:p-6 flex flex-col md:flex-row items-center justify-between gap-4 mb-12 shadow-xl">
           <div>
-            <p className="font-display font-bold text-navy-900 text-xl md:text-2xl">CBSE Affiliated School</p>
+            <p className="font-display font-bold text-navy-900 text-xl md:text-2xl">CBSE Syllabus</p>
             <p className="text-navy-800/70 text-sm mt-1">Updated curriculum with AI &amp; Robotics for future-ready students</p>
           </div>
           <div className="flex gap-4 text-center">
             <div className="bg-navy-900/10 rounded-xl px-5 py-3">
-              <p className="font-display font-bold text-navy-900 text-2xl">10+</p>
+              <p className="font-display font-bold text-navy-900 text-2xl">Play School - Grade X</p>
               <p className="text-navy-800/70 text-xs">Grade Levels</p>
             </div>
             <div className="bg-navy-900/10 rounded-xl px-5 py-3">
@@ -47,9 +48,9 @@ export default function Academics() {
           </div>
         </div>
 
-        {/* Programs grid */}
+        {/* Programmes grid */}
         <div className="flex flex-wrap justify-center gap-5">
-          {programs.map((p, i) => (
+          {programmes.map((p, i) => (
             <div
               key={i}
               className={`w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc((100%-2.5rem)/3)] bg-gradient-to-br ${p.color} border rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-200`}

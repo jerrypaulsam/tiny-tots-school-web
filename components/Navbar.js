@@ -96,7 +96,7 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="mt-4 block text-center bg-gold-gradient text-navy-900 font-bold text-sm px-5 py-2.5 rounded-full"
           >
-            Admissions Open 2026–27
+            Admissions Open 2026-2027
           </a>
         </div>
       )}

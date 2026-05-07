@@ -6,7 +6,7 @@ const images = [
   { src: "/classroom.jpg", caption: "Classroom Learning" },
   { src: "/robotics-ai-lab.jpeg", caption: "Science & Robotics Lab" },
   { src: "/sports-day.jpg", caption: "Annual Sports Day" },
-  { src: "/cultural-programs.jpg", caption: "Cultural Programs" },
+  { src: "/cultural-programs.jpg", caption: "Cultural Programmes" },
   { src: "/arts-day.jpg", caption: "Art & Creativity" },
   { src: "/campus-life.jpg", caption: "Campus Life" },
 ];
