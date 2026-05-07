@@ -15,7 +15,7 @@ const siteDescription =
   "Tiny Tots National School is a CBSE-affiliated school in Mangad, Thirumala, Trivandrum, offering Day Care, Play School, Pre KG, KG, and Grades I to X with AI and Robotics learning, caring faculty, and holistic development since 2006.";
 const siteKeywords =
   "Tiny Tots National School, CBSE school Trivandrum, CBSE school Thirumala, school admission Trivandrum, play school Mangad, kindergarten Trivandrum, day care Thirumala, grade 1 to 10 school Kerala, AI robotics school Trivandrum, best school Mangad";
-const ogImage = `${siteUrl}/school-exterior.webp`;
+const ogImage = `${siteUrl}/tiny-tots-logo.jpeg`;
 
 export default function Home() {
   return (
