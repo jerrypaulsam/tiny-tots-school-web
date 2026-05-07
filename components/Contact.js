@@ -31,7 +31,7 @@ const contactItems = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 md:py-28 bg-white">
+    <section id="contact" className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-gold-500 bg-gold-50 border border-gold-200 px-3 py-1 rounded-full mb-3">
@@ -47,9 +47,9 @@ export default function Contact() {
         </div>
 
         {/* Admission Banner */}
-        <div className="bg-navy-gradient rounded-3xl p-7 md:p-10 mb-10 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="bg-navy-gradient rounded-3xl p-7 lg:p-10 mb-10 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">
           <div>
-            <p className="text-gold-300 font-display font-bold text-xl md:text-2xl mb-1">
+            <p className="text-gold-300 font-display font-bold text-xl lg:text-2xl mb-1">
               Admissions Open 2026-2027
             </p>
             <p className="text-white/60 text-sm">Play School to Grade X | CBSE Syllabus</p>

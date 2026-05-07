@@ -10,7 +10,7 @@ const programmes = [
 
 export default function Academics() {
   return (
-    <section id="academics" className="py-20 md:py-28 bg-navy-900 relative overflow-hidden">
+    <section id="academics" className="py-20 lg:py-28 bg-navy-900 relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-gold-400/5 rounded-full -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gold-400/5 rounded-full translate-x-1/3 translate-y-1/3" />
@@ -20,23 +20,23 @@ export default function Academics() {
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-gold-400 bg-gold-400/10 border border-gold-400/20 px-3 py-1 rounded-full mb-3">
             Academics
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-white">
+          <h2 className="font-display text-3xl lg:text-4xl font-bold text-white">
             Classes &amp; Curriculum
           </h2>
           <div className="w-14 h-1 bg-gold-400 rounded-full mx-auto mt-4 mb-4" />
-          <p className="text-white/60 max-w-xl mx-auto text-sm md:text-base">
+          <p className="text-white/60 max-w-xl mx-auto text-sm lg:text-base">
             A structured learning journey from early childhood through secondary education,
             following the CBSE syllabus.
           </p>
         </div>
 
         {/* Curriculum Banner */}
-        <div className="bg-gold-gradient rounded-2xl p-5 md:p-6 flex flex-col md:flex-row items-center justify-between gap-4 mb-12 shadow-xl">
+        <div className="bg-gold-gradient rounded-2xl p-5 lg:p-6 flex flex-col lg:flex-row items-center justify-between gap-4 mb-12 shadow-xl">
           <div>
-            <p className="font-display font-bold text-navy-900 text-xl md:text-2xl">CBSE Syllabus</p>
+            <p className="font-display font-bold text-navy-900 text-xl lg:text-2xl">CBSE Syllabus</p>
             <p className="text-navy-800/70 text-sm mt-1">Updated curriculum with AI &amp; Robotics for future-ready students</p>
           </div>
-          <div className="flex gap-4 text-center">
+          <div className="flex flex-col sm:flex-row gap-4 text-center">
             <div className="bg-navy-900/10 rounded-xl px-5 py-3">
               <p className="font-display font-bold text-navy-900 text-2xl">Play School - Grade X</p>
               <p className="text-navy-800/70 text-xs">Grade Levels</p>

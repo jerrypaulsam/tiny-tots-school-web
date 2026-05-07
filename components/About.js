@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 md:py-28 bg-white">
+    <section id="about" className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image side */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl">
@@ -16,7 +16,7 @@ export default function About() {
               />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-5 -right-2 md:-right-6 bg-navy-gradient text-white px-6 py-4 rounded-2xl shadow-xl">
+            <div className="absolute -bottom-5 -right-2 lg:-right-6 bg-navy-gradient text-white px-6 py-4 rounded-2xl shadow-xl">
               <p className="font-display font-bold text-2xl text-gold-300">18+</p>
               <p className="text-xs text-white/70 mt-0.5">Years of Excellence</p>
             </div>

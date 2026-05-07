@@ -27,10 +27,10 @@ export default function Navbar() {
         scrolled ? "bg-navy-900 shadow-xl py-2" : "bg-transparent py-4"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex items-center justify-between gap-4">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0 rounded-full overflow-hidden border border-white/15 bg-white">
+          <div className="relative w-10 h-10 lg:w-12 lg:h-12 flex-shrink-0 rounded-full overflow-hidden border border-white/15 bg-white">
             <Image
               src="/tiny-tots-logo.jpeg"
               alt="Tiny Tots National School Logo"
@@ -39,7 +39,7 @@ export default function Navbar() {
             />
           </div>
           <div className="leading-tight">
-            <p className="font-display font-bold text-white text-sm md:text-base leading-none">
+            <p className="font-display font-bold text-white text-sm lg:text-base leading-none">
               TINY TOTS
             </p>
             <p className="text-gold-300 text-xs tracking-widest uppercase">
@@ -49,7 +49,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6 xl:gap-7">
           {links.map((l) => (
             <a
               key={l.href}
@@ -62,7 +62,7 @@ export default function Navbar() {
           ))}
           <a
             href="#contact"
-            className="ml-2 bg-gold-gradient text-navy-900 font-bold text-sm px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-transform"
+            className="ml-2 bg-gold-gradient text-center text-navy-900 font-bold text-sm px-5 py-2 rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             Admissions Open
           </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-white p-1"
+          className="lg:hidden text-white p-1"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -80,7 +80,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {open && (
-        <div className="md:hidden bg-navy-900 border-t border-white/10 px-4 pb-4 pt-2">
+        <div className="lg:hidden bg-navy-900 border-t border-white/10 px-4 sm:px-6 md:px-8 pb-4 pt-2">
           {links.map((l) => (
             <a
               key={l.href}

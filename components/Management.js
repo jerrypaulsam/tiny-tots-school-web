@@ -17,9 +17,9 @@ const team = [
   },
 ];
 
-export default function Management() { 
+export default function Management() {
   return (
-    <section id="management" className="py-20 md:py-28 bg-navy-50" style={{ background: "linear-gradient(135deg, #f0f4fb 0%, #fdfcf7 100%)" }}>
+    <section id="management" className="py-20 lg:py-28 bg-navy-50" style={{ background: "linear-gradient(135deg, #f0f4fb 0%, #fdfcf7 100%)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-14">
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-gold-500 bg-gold-50 border border-gold-200 px-3 py-1 rounded-full mb-3">
@@ -32,14 +32,14 @@ export default function Management() {
           <div className="w-14 h-1 bg-gold-400 rounded-full mx-auto mt-4" />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {team.map((person, i) => (
             <div
               key={i}
-              className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col sm:flex-row hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row hover:shadow-xl transition-shadow duration-300"
             >
               {/* Image */}
-              <div className="relative w-full sm:w-40 md:w-44 flex-shrink-0 aspect-[4/5] bg-navy-100">
+              <div className="relative w-full md:w-40 lg:w-44 flex-shrink-0 aspect-[4/5] bg-navy-100">
                 <Image
                   src={person.img}
                   alt={person.name}
@@ -47,7 +47,7 @@ export default function Management() {
                   className="object-contain object-top"
                 />
                 {/* Overlay gradient on mobile */}
-                <div className="sm:hidden absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                <div className="md:hidden absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
 
               {/* Content */}
