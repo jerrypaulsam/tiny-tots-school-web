@@ -17,7 +17,7 @@ const team = [
   },
 ];
 
-export default function Management() {
+export default function Management() { 
   return (
     <section id="management" className="py-20 md:py-28 bg-navy-50" style={{ background: "linear-gradient(135deg, #f0f4fb 0%, #fdfcf7 100%)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
