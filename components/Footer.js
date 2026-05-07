@@ -12,8 +12,8 @@ const quickLinks = [
 
 const socialLinks = [
   { label: "Facebook", href: "https://www.facebook.com/tinytotsns2006", icon: Facebook },
-  { label: "Instagram", href: "#", icon: Instagram },
-  { label: "LinkedIn", href: "#", icon: Linkedin },
+  { label: "Instagram", href: null, icon: Instagram },
+  { label: "LinkedIn", href: null, icon: Linkedin },
 ];
 
 export default function Footer() {
